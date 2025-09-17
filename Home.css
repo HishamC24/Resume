@@ -1,8 +1,20 @@
-.horizontalSplit {
-  display: flex;
-  gap: 5vw;
+#headshot {
+  width: 80vw;
+  height: 40vw;
+  object-fit: cover;
+  object-position: 0vw -37vw;
+  border-radius: 10vw;
+  margin-bottom: 5vw;
 }
 
-#horizontalSplit > div {
-  width: 40vw;
+#education > .horizontalSplit {
+  grid-template-columns: 1fr 1fr;
+}
+
+#certifications > .horizontalSplit {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#accomplishments > .horizontalSplit {
+  
 }

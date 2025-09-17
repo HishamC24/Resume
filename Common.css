@@ -25,8 +25,7 @@ body {
 }
 
 main {
-  padding-top: 10vh;
-  width: 80vw;
+  padding-top: 10vw;
 }
 
 h1 {
@@ -39,6 +38,7 @@ h2 {
 
 section {
   margin-bottom: 5vw;
+  width: 80vw;
 }
 
 hr {
@@ -51,6 +51,16 @@ hr {
 
 ul {
   padding-left: 3vw;
+}
+
+a {
+  display: contents;
+}
+
+.horizontalSplit {
+  display: grid;
+  row-gap: 2.5vw;
+  column-gap: 5vw;
 }
 
 .gray {
