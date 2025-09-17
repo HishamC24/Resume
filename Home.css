@@ -1,0 +1,8 @@
+.horizontalSplit {
+  display: flex;
+  gap: 5vw;
+}
+
+#horizontalSplit > div {
+  width: 40vw;
+}
