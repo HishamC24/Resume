@@ -6,7 +6,8 @@
 
 @font-face {
   font-family: "San Fransisco";
-  src: url("Fonts/SF-Pro-Display-Medium.otf");
+  /* src: url("Fonts/SF-Pro-Display-Medium.otf"); */
+  src: url("Fonts/SF-Pro-Display-Light.otf");
   font-weight: normal;
 }
 
@@ -16,6 +17,10 @@
   padding: 0px;
   margin: 0px;
   font-size: 1.5vw;
+}
+
+html {
+  scrollbar-width: none;
 }
 
 body {
@@ -73,4 +78,38 @@ a {
 
 .bold {
   font-weight: bold;
+}
+
+nav {
+  position: fixed;
+  top: 2vw;
+  /* width: 96vw; */
+  width: fit-content;
+  height: 3vw;
+  padding: 0.25vw 1.5vw 0.25vw 1vw;
+  gap: 1vw;
+  border-radius: 2vw;
+  background-color: rgb(0 0 0 / 15%);
+  backdrop-filter: blur(2px);
+  box-shadow: #dddddd 0vw 0.5vw 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > a {
+  display: block;
+  font-size: 1vw;
+  text-decoration: none;
+  color: #000000;
+}
+nav > a:visited {
+  color: #000000;
+}
+
+nav > a:first-child {
+  color: #ffffff;
+  padding: 0.25vw 0.5vw;
+  border-radius: 5vw;
+  background-color: #0080ff;
 }

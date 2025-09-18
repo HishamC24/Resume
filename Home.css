@@ -1,14 +1,24 @@
+#hello {
+  grid-template-columns: repeat(2, 1fr);
+}
+#hello > div > h1 {
+  text-box-trim: trim-both;
+}
+
 #headshot {
-  width: 80vw;
-  height: 40vw;
+  width: 40vw;
+  height: 25vw;
   object-fit: cover;
-  object-position: 0vw -37vw;
-  border-radius: 10vw;
-  margin-bottom: 5vw;
+  object-position: 0vw -17vw;
+  border-radius: 8vw;
 }
 
 #education > .horizontalSplit {
   grid-template-columns: repeat(2, 1fr);
+}
+
+#skills > .horizontalSplit {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 #certifications > .horizontalSplit {
