@@ -8,13 +8,13 @@
 }
 
 #education > .horizontalSplit {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 #certifications > .horizontalSplit {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 #accomplishments > .horizontalSplit {
-  
+  grid-template-columns: repeat(2, 1fr);
 }

@@ -6,7 +6,7 @@
 <body>
   <nav></nav>
   <main>
-    <header><img id="headshot" src="/Images/Headshot.jpg" /></header>
+    <!-- <header><img id="headshot" src="/Images/Headshot.jpg" /></header> -->
     <section id="hello">
       <p id="intro" class="gray">Hello, I am</p>
       <h1 class="bold">Hisham Chowdhury</h1>
@@ -111,7 +111,40 @@
     <section id="accomplishments">
       <h2>Accomplishments</h2>
       <hr />
-      <div class="horizontalSplit"></div>
+      <div class="horizontalSplit">
+        <div>
+          <p class="bold">Custom CPU</p>
+          <p class="gray bold">November 2023 - Current</p>
+          <p class="gray">
+            “Excpute” is an 8 bit Central Processing Unit (CPU) programmed originally in Python, and currently in development on C++ and JavaScript.
+            It features 8 registers, 3 dedicated to the Memory Address, Stack Pointer, and Flags. The CPU supports 32 different instructions,
+            including ones dedicated to display manipulation. It supports a 256x256 display, with complete 8-bit color, as well as up to 256 8-bit
+            ports, and a stack that utilizes part of memory, which is also 256 bytes. IO such as a keyboard and mouse inputs are completely
+            functional.
+            <br />
+            <br />
+            Alongside that I have made my own custom assembler for the CPU, to convert assembly made for the CPU into binaries that the CPU can
+            process, complete with labels and variables.
+            <br />
+            <br />
+            Currently, I am also planning on making a 16 bit version, with 256 different instructions.
+          </p>
+        </div>
+        <div>
+          <p class="bold">Text Editor</p>
+          <p class="gray bold">February 2023 - March 2024</p>
+          <p class="gray">
+            Over the course of a year, I developed a text editor. It takes user input from a keyboard very similar to a 60% keyboard qwerty layout. It
+            converts the input into an 8 bit number with a custom character set similar to ascii, stores it in a First In First Out (FIFO) queue, and
+            each 8 bit character gets converted into a 5x7 image with a custom ROM. The character image then gets put into the next available spot on
+            the display using a smart character detection system utilizing a signal bit.
+            <br />
+            <br />
+            All of the mentioned above was created in Minecraft using Redstone with many months of research and development, and it is infinitely
+            expandable to fit a large range of character counts.
+          </p>
+        </div>
+      </div>
     </section>
   </main>
 </body>
