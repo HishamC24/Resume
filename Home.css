@@ -1,15 +1,19 @@
 #hello {
   grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 3vw;
 }
 #hello > div > h1 {
-  text-box-trim: trim-both;
+  /* text-box-trim: trim-both; */
+  /* text-box: trim-start cap alphabetic; */
+  line-height: 6vw;
+  margin: 1vw 0vw;
 }
 
 #headshot {
   width: 40vw;
-  height: 25vw;
+  height: 24.5vw;
   object-fit: cover;
-  object-position: 0vw -17vw;
+  object-position: 0vw -18vw;
   border-radius: 8vw;
 }
 

@@ -1,0 +1,24 @@
+#glassmorphism {
+  margin-top: 2vw;
+  /* width: 80vw; */
+  height: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10vw;
+
+  background-image: url("../Images/iPadOS26\ Wallpaper.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+#box {
+  width: 64vw;
+  height: 24vw;
+  border-radius: 5vw;
+  padding: 3vw;
+
+  background-color: rgb(255 255 255 / 15%);
+  box-shadow: 0 0 0 0.5vw rgb(255 255 255 / 15%) inset;
+  backdrop-filter: blur(0.5vw);
+}

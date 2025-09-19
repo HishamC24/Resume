@@ -1,19 +1,24 @@
 @font-face {
   font-family: "San Fransisco";
   src: url("Fonts/SF-Pro-Display-Bold.otf");
-  font-weight: bold;
+  font-weight: 900;
 }
 
 @font-face {
   font-family: "San Fransisco";
-  /* src: url("Fonts/SF-Pro-Display-Medium.otf"); */
-  src: url("Fonts/SF-Pro-Display-Light.otf");
-  font-weight: normal;
+  src: url("Fonts/SF-Pro-Display-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "San Fransisco";
+  src: url("Fonts/SF-Pro-Display-Regular.otf");
+  font-weight: 100;
 }
 
 * {
   font-family: "San Fransisco";
-  font-weight: normal;
+  font-weight: 100;
   padding: 0px;
   margin: 0px;
   font-size: 1.5vw;
@@ -55,7 +60,7 @@ hr {
 }
 
 ul {
-  padding-left: 3vw;
+  padding-left: 1.5vw;
 }
 
 a {
@@ -77,7 +82,15 @@ a {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 900;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.regular {
+  font-weight: 100;
 }
 
 nav {
@@ -89,9 +102,10 @@ nav {
   padding: 0.25vw 1.5vw 0.25vw 1vw;
   gap: 1vw;
   border-radius: 2vw;
-  background-color: rgb(0 0 0 / 15%);
+  /* background-color: rgb(0 0 0 / 15%); */
+  background-color: rgb(255 255 255 / 15%);
   backdrop-filter: blur(2px);
-  box-shadow: #dddddd 0vw 0.5vw 4vw;
+  box-shadow: rgb(0 0 0 / 15%) 0vw 0.5vw 2vw;
   display: flex;
   justify-content: center;
   align-items: center;
