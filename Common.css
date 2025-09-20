@@ -99,7 +99,6 @@ nav {
   /* width: 96vw; */
   width: fit-content;
   height: 3vw;
-  padding: 0.25vw 1.5vw 0.25vw 1vw;
   gap: 1vw;
   border-radius: 2vw;
   /* background-color: rgb(0 0 0 / 15%); */
@@ -109,6 +108,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 100;
+
+  /* put this in every css file thats page specific */
+  /* padding: 0.25vw 1.5vw 0.25vw 1vw; for left element selected, right pushed in more for optical balance*/
 }
 
 nav > a {
@@ -121,7 +124,7 @@ nav > a:visited {
   color: #000000;
 }
 
-nav > a:first-child {
+nav > a.active {
   color: #ffffff;
   padding: 0.25vw 0.5vw;
   border-radius: 5vw;

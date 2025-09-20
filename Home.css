@@ -1,7 +1,12 @@
+nav {
+  padding: 0.25vw 1.5vw 0.25vw 1vw;
+}
+
 #hello {
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 3vw;
 }
+
 #hello > div > h1 {
   /* text-box-trim: trim-both; */
   /* text-box: trim-start cap alphabetic; */
