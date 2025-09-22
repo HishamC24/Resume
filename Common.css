@@ -64,7 +64,11 @@ ul {
 }
 
 a {
-  display: contents;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .horizontalSplit {
