@@ -12,7 +12,7 @@ nav {
   align-items: center;
   border-radius: 10vw;
 
-  background-image: url("../Images/iPadOS26\ Wallpaper.png");
+  background-image: url("../Media/iPadOS26\ Wallpaper.png");
   background-size: cover;
   background-position: center center;
 }
@@ -28,7 +28,8 @@ nav {
   backdrop-filter: blur(0.5vw);
 }
 
-#showcase > img {
+#showcase > img,
+#showcase > video {
   width: 80vw;
   border-radius: 4vw;
   margin-bottom: 1vw;

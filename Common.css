@@ -115,7 +115,7 @@ nav {
   z-index: 100;
 
   /* put this in every css file thats page specific */
-  /* padding: 0.25vw 1.5vw 0.25vw 1vw; for left element selected, right pushed in more for optical balance*/
+  /* padding: 0.25vw 1.5vw 0.25vw 1vw; for left element selected, right pushed in more for optical balance */
 }
 
 nav > a {
@@ -124,6 +124,7 @@ nav > a {
   text-decoration: none;
   color: #000000;
 }
+
 nav > a:visited {
   color: #000000;
 }

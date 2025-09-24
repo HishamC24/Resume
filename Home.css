@@ -20,6 +20,7 @@ nav {
   object-fit: cover;
   object-position: 0vw -18vw;
   border-radius: 8vw;
+  filter: saturate(1.25);
 }
 
 #education > .horizontalSplit {
