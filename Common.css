@@ -71,6 +71,14 @@ a:hover {
   text-decoration: underline;
 }
 
+footer {
+  padding-bottom: 3vw;
+}
+
+footer > a {
+  font-size: 1vw;
+}
+
 .horizontalSplit {
   display: grid;
   row-gap: 2.5vw;
